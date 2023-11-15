@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="139268" started-at="2023-11-09T13:53:59 IST" finished-at="2023-11-09T13:56:18 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="139268" started-at="2023-11-09T13:53:59 IST" finished-at="2023-11-09T13:56:18 IST">
+      <class name="com.Test.RetailPOS_Order_Test">
+        <test-method status="PASS" signature="login()[pri:0, instance:com.Test.RetailPOS_Order_Test@77be656f]" name="login" is-config="true" duration-ms="15846" started-at="2023-11-09T13:53:59 IST" finished-at="2023-11-09T13:54:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="OrderScreen_Kit_AccessbileItem_Sale()[pri:10, instance:com.Test.RetailPOS_Order_Test@77be656f]" name="OrderScreen_Kit_AccessbileItem_Sale" duration-ms="121231" started-at="2023-11-09T13:54:14 IST" finished-at="2023-11-09T13:56:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderScreen_Kit_AccessbileItem_Sale -->
+        <test-method status="PASS" signature="TestFail(org.testng.ITestResult)[pri:0, instance:com.Test.RetailPOS_Order_Test@77be656f]" name="TestFail" is-config="true" duration-ms="2" started-at="2023-11-09T13:56:16 IST" finished-at="2023-11-09T13:56:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=OrderScreen_Kit_AccessbileItem_Sale status=SUCCESS method=RetailPOS_Order_Test.OrderScreen_Kit_AccessbileItem_Sale()[pri:10, instance:com.Test.RetailPOS_Order_Test@77be656f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFail -->
+        <test-method status="PASS" signature="flushTest()[pri:0, instance:com.Test.RetailPOS_Order_Test@77be656f]" name="flushTest" is-config="true" duration-ms="2156" started-at="2023-11-09T13:56:16 IST" finished-at="2023-11-09T13:56:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushTest -->
+      </class> <!-- com.Test.RetailPOS_Order_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
